@@ -1,5 +1,6 @@
 :root{
-    color-scheme: #124559, #598392, #AEC3B0, #EFF6E0 ;
+    color-scheme: light;
+    background-color: #EFF6E0;
 }
 
 h1 {
@@ -7,7 +8,6 @@ h1 {
     font-family: "Averia Libre", serif;
     font-weight: 700;
     font-style: normal;
-
 
     position: absolute;
     top: 300px;
@@ -38,7 +38,6 @@ h3 {
 p{  
     color:black;
     font-family: "Open Sans", serif;
-    font-optical-sizing:auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
