@@ -3,6 +3,11 @@
     background-color: #EFF6E0;
 }
 
+body { 
+    width: 1000px;
+    margin: 0 auto;
+}
+
 h1 {
     color: black;
     font-family: "Averia Libre", serif;
@@ -10,14 +15,12 @@ h1 {
     font-style: normal;
 
     position: absolute;
-    top: 300px;
-    left: 50px;
+    width: 1000px;
+    top: 50px;
     background-color: #124559;
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-bottom: 2rem;   
     opacity: 0.8;
 }
 
@@ -44,7 +47,9 @@ p{
       "wdth" 100;
 }
 
-
+.hero {
+    position: relative;
+}
 .hero img{
     display: block;
     width: 100%;
@@ -53,8 +58,9 @@ p{
 
 .client {
     position: absolute;
-    top: 700px;
-    left: 230px;
+    top: 200px;
+    left: 50px;
+    right: 50px;
     background-color: #AEC3B0;
     text-align: left;
     padding-top: 1rem;
@@ -73,4 +79,7 @@ p{
     float: right;
 }
 
+footer img {
+    text-decoration: none;
+}
 
