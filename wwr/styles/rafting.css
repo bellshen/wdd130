@@ -1,26 +1,68 @@
 :root{
     color-scheme: light;
-    background-color: #EFF6E0;
 }
 
 body { 
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+header{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 50px;
+    align-items: center;
+    border:1px solid black;
+    background-color: #AEC3B0;
+}
+
+header img{
+    margin-left:100px;
+    max-width: 150px;
+    height:auto;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li{
+    flex: 1 1 100%;
+}
+
+.navigation a{
+    display: block;
+    padding: 10px;
+    color: #124559;
+    font-family: "Averia Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 1px solid black;
+    background-color: #EFF6E0;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 h1 {
-    color: black;
+    color: khaki;
     font-family: "Averia Libre", serif;
     font-weight: 700;
     font-style: normal;
 
     position: absolute;
-    width: 1000px;
+    width: 100%;
     top: 50px;
     background-color: #124559;
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;   
+    padding-bottom: 2rem;
     opacity: 0.8;
 }
 
@@ -58,9 +100,10 @@ p{
 
 .client {
     position: absolute;
-    top: 200px;
-    left: 50px;
-    right: 50px;
+    top: 50%;
+    left: 7%;
+    width: 80%;
+    height:auto;
     background-color: #AEC3B0;
     text-align: left;
     padding-top: 1rem;
@@ -72,14 +115,75 @@ p{
 }
 
 .client img {
-    width: 200px;
+    max-width: 200px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
-footer img {
+.history{
+    margin: 1rem 0 1rem 0;
+    border: 1px solid black;
+    padding: 3rem;
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+.history p{
+    margin-left:1rem;
+    text-align: left;
+}
+.columns3{
+    grid-column: 1/4;
+}
+.history img{
+    padding: 1rem;
+    border:1px solid gray;
+    width: 200px;
+    height:auto;
+}
+
+.section2{
+    margin: 1rem 0 1rem 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.adventure{
+    display:flex;
+}
+
+.adventure img{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black; 
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+
+}
+
+footer{
+    margin: 1rem 0 1rem 0;
+    border: 1px solid black;
+    background-color: #AEC3B0;
+}
+footer img{
+    max-width:40px;
+    height: auto;
+    margin-left:5px;
+    margin-right:5px;
     text-decoration: none;
+}
+.icons{
+    margin-right: 1.5rem;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+.icons p{
+    margin-right:10%;
 }
 
