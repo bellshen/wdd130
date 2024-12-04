@@ -187,3 +187,101 @@ footer img{
     margin-right:10%;
 }
 
+/*contact info CSS*/
+.info{
+    display:flex;
+    justify-content: center;
+    background-color: #EFF6E0;
+    border:1px solid black;
+}
+.map iframe{
+    width:350px;
+    height:auto;
+    padding:1rem;
+    border:1px solid gray;
+    margin:1.5rem 1.5rem;
+    background-color: #eee;
+    border-radius: 0.5em;
+}
+/*employees part CSS*/
+.employees{
+    display:flex;
+    justify-content: center;
+    background-color: #EFF6E0;
+    margin: 1rem 10%;
+    border: 1px gray;
+    border-radius: 0.5em;
+}
+.employees img{
+    width:150px;
+    height:100px;
+}
+
+/* form CSS*/
+form{
+    width:500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: #eee;
+    display: grid;
+}
+
+.form-item{
+    display:grid;
+    align-items: center;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+
+legend{
+    padding:0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+fieldset{
+    display:grid;
+    grid-gap:0.5em;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+label, input, button, select, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    text-align: left;
+    padding-right: 0.5rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button{
+    width:200px;
+    margin:1rem auto;
+    padding:1rem;
+    background-color: navy;
+    color: white;
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+.contactlink{
+    margin-right: 1rem;
+}
