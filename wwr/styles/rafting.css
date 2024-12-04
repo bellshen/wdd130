@@ -58,7 +58,7 @@ h1 {
 
     position: absolute;
     width: 100%;
-    top: 50px;
+    top: 20px;
     background-color: #124559;
     text-align: center;
     padding-top: 2rem;
@@ -189,17 +189,20 @@ footer img{
 
 /*contact info CSS*/
 .info{
-    display:flex;
-    justify-content: center;
+    position: relative;
+    padding-top:8rem;
+    display: flex;
     background-color: #EFF6E0;
     border:1px solid black;
+    justify-content:center;
 }
+
 .map iframe{
-    width:350px;
+    width:300px;
     height:auto;
     padding:1rem;
     border:1px solid gray;
-    margin:1.5rem 1.5rem;
+    margin: 1.5em 1.5em;
     background-color: #eee;
     border-radius: 0.5em;
 }
