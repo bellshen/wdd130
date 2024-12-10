@@ -350,18 +350,26 @@ button:hover{
     position: relative;
 }
 
+.riverview{
+    position: absolute;
+    top:20%;
+    left: 10%;
+    width: 40%;
+    font-size:x-large;
+    text-shadow: 1px 1px white;
+}
 .subscribe{
     position: absolute;
-    top:1%;
+    top:1px;
     left: 55%;
-    width: 35%;
+    width: 40%;
     height:auto;
     border-radius: 1em;
     opacity: 0.85;
 }
 
 .subscribe form{
-    max-width: 350px;
+    max-width: 400px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
